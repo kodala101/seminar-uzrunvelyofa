@@ -1,5 +1,5 @@
 package seminar4RelationOfClasses.Interface;
 
-public interface Electronics extends Device {
-    void plugin();
+public abstract class Electronics implements Device {
+    public abstract void plugin();
 }
